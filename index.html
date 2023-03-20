@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js">
+
+    </script>
+    <title>Iphone-Store (BR)</title>
+</head>
+
+<body>
+
+    <nav class="browser"> 
+        <img class="logo" src="./assets/logo.png">
+        <ul class="list">
+            <li>Mac</li>
+            <li>Iphone</li>
+            <li>Ipad</li>
+            <li>Watch</li>
+            <li>Acessórios</li>
+            <li>Support</li>
+        </ul>
+    </nav>
+
+    <div class="mainBox">
+       
+        <div>
+            <h1 class="titulo-iphone">Iphone 14</h1>
+
+            <h2 class="titulo-secundario">Tão poderoso. Tão ao seu alcance.</h2>
+
+            <p class="paragrafo">Em dois tamanhos perfeitos. Agora com um toque de amarelo.</p>
+
+            <h3 class="value"> A partir de R$ 633,25/mês ou R$ 7.599 à vista.</h3>
+
+            <button class="button">Comprar</button>
+
+            <p class="chose-color">Escolha sua cor:</p>
+            <div>
+                <button onclick="changeColor('#81a5c4'); changeImg('./assets/iphone-azul.png') " class="blue troca-cor"></button>
+                <button onclick="changeColor('#f7da47'); changeImg('./assets/iphone-amarelo.png') " class="yellow troca-cor"></button>
+                <button onclick="changeColor('#c1c1c1'); changeImg('./assets/iphone-branco.png') " class="white troca-cor"></button>
+                <button onclick="changeColor('#272d33'); changeImg('./assets/iphone-preto.png') " class="black troca-cor"></button>
+                <button onclick="changeColor('#b50012'); changeImg('./assets/iphone-vemelho.png') " class="red troca-cor"></button>
+                <button onclick="changeColor('#ede7f1'); changeImg('./assets/iphone-roxo.png') " class="purple troca-cor"></button>
+            </div>
+        </div>
+        <div class="circulo"></div>
+        <img class="iphone" src="./assets/iphone-azul.png">
+    </div>
+</body>
+
+</html>
